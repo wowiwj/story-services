@@ -1,3 +1,3 @@
 FROM debian
-ADD user-service /user-service
+ADD /build/user-service /user-service
 ENTRYPOINT [ "/user-service" ]

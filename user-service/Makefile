@@ -8,7 +8,7 @@ proto:
 
 .PHONY: build
 build: proto
-	GOOS=linux GOARCH=amd64 go build -o user-service main.go plugin.go
+	GOOS=linux GOARCH=amd64 go build -o /build/user-service main.go plugin.go
 
 .PHONY: test
 test:
